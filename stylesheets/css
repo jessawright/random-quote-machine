@@ -1,0 +1,117 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background-color: #131313;
+  margin: 0;
+  padding: 0;
+}
+
+img,
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+div,
+a {
+  color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2 {
+  font-family: "Poiret One", Georgia, serif;
+}
+
+h1 {
+  font-size: 36pt;
+  margin: 2%;
+}
+
+h2 {
+  line-height: 1.4;
+}
+
+p,
+a,
+.btn {
+  font-family: "Josefin Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+p,
+a {
+  font-weight: 400;
+}
+
+.quotebox {
+  position: relative;
+  display: block;
+  max-width: 559px;
+}
+
+.quotecontent {}
+
+#quotetext,
+#quotemedia {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  margin: 0;
+  padding: 6.7% 5.4% 6.7% 5.4%;
+}
+
+#quotetext {
+  width: 80%;
+  margin: 0 10% 0 10%;
+}
+
+.sourcebox {
+  padding: 1%;
+}
+
+.btn[disabled],
+.btn[disabled]:hover {
+  cursor: default;
+  background-color: #aaaaaa;
+  border: none;
+}
+
+.buttonbox {
+  max-width: 500px;
+}
+
+
+.btn,
+.btn:focus {
+  background-color: #cccccc;
+  color: #131313;
+  border: none;
+  outline: none;
+  width: 33%;
+  margin: 1%;
+}
+
+.btn:hover,
+.btn:active,
+.btn:active:hover {
+  background-color: #f3f3f3;
+  color: #131313;
+  outline: none;
+}
+
+a:hover,
+a:active:hover,
+a:active,
+a:focus {
+  text-decoration: none;
+  color: #f0f0f0;
+}
