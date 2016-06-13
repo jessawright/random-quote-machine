@@ -115,3 +115,7 @@ a:focus {
   text-decoration: none;
   color: #f0f0f0;
 }
+
+.copyright {
+  padding-top: 5%;
+}
