@@ -280,3 +280,6 @@ $("#lastscene").on("click", function () {
         $("#nextscene").removeAttr("disabled");
     }
 });
+
+// Start a new movie on loading
+document.ready(newMovie());
